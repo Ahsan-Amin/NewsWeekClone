@@ -5,10 +5,13 @@ body{
 a {
     text-decoration: none;
     font-weight: bold;
+    color: black;
+    letter-spacing: -1px;
     
 }
  a:hover, a:focus, a:active{
     color: red;
+    
  }
  .Nav-color{
     background-color: red;
@@ -62,6 +65,29 @@ padding-top: 20px;
 .inner-show-header img{
    width: 100%;
 }
-.InTheMagzine-inner img  , .inner-features img{
+.InTheMagzine-inner img  , .inner-features img ,.editor-pack-inner img {
+    width: 100%;
+}
+.more-stories-inner img{
+    width: 100%;
+}
+.inner-video-text-tab{
+    background-color: black;
+    color: #fff;
+}
+.inner-video-text-tab a{
+    color: #fff;
+    word-spacing: -1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.inner-video-text-tab{
+     padding: 40px 10px;
+}
+.inner-video-main-video-tab iframe{
+height: 100%;
+width: 100%;
+}
+.inner-video-main-video{
+    height: 100%;
     width: 100%;
 }

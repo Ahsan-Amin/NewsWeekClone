@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+ a:hover, a:focus, a:active{
+    color: red;
+ }
+ .Nav-color{
+    background-color: red;
+ }
+#Nav_A{
+    color: white;
+     font-size: 60px;
+     letter-spacing: -3px; 
+     font-weight: 900;
+      font-family: 'Arial','Helvetica','sans-serif';
+}
+.nav-link {
+color: black ;
+padding-top: 20px;
+}
+.Podcasts{
+    border-style: solid;
+    padding: 25px;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+.newsletter{
+    border-style: solid;
+    padding: 25px;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+.newsletter-header{
+    padding: 20px;
+    background: #fff;
+    width: 100%;
+}
+.newsletter-content{
+    padding: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.newsletter_learnmore a{
+    padding-top: 10px;
+    text-align: center;
+    color: red;
+}
+
+.Show{
+    border-style: solid;
+    padding: 25px;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+.inner-show-header img{
+   width: 100%;
+}

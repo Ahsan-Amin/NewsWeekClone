@@ -65,7 +65,7 @@ padding-top: 20px;
 .inner-show-header img{
    width: 100%;
 }
-.InTheMagzine-inner img  , .inner-features img ,.editor-pack-inner img {
+.InTheMagzine-inner img  , .inner-features img ,.editor-pack-inner img , .inner-us-body img {
     width: 100%;
 }
 .more-stories-inner img{
@@ -90,4 +90,48 @@ width: 100%;
 .inner-video-main-video{
     height: 100%;
     width: 100%;
+}
+.btn-fsu{
+    /* display: inline-block; */
+  /* border-radius: 4px; */
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  /* font-size: 28px; */
+  padding: 5.8px 8px ;
+  cursor: pointer;
+}
+.btn-subscribe{
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    /* font-size: 28px; */
+    padding: 5.8px 8px ;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.email-fsu{
+    padding: 5px 2px;
+    border-color:darkgrey;
+    border-width: 0.2px;
+    text-align: center;
+    width:125px;
+}
+.subscribe-box{
+    background-color: aliceblue;
+}
+.subcribe-img img{
+width: 100%;
+padding: 20px 20px;
+}
+.subscribe-box-text h4{
+    padding-top:80px;
+}
+.subscribe-box-text{
+    padding-bottom: 50px;
+}
+.snl-main{
+    padding-top: 50px;
 }

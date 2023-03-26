@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Stafford Serial';
+    src: url('../webfonts/stafford-serial-extrabold-regular.ttf') format('truetype');
+  }
+
+
 body{
     padding-left: 10%;
     padding-right: 10%;
@@ -18,10 +24,12 @@ a {
  }
 #Nav_A{
     color: white;
-     font-size: 60px;
-     letter-spacing: -3px; 
-     font-weight: 900;
-      font-family: 'Arial','Helvetica','sans-serif';
+     font-size: 4rem;
+     letter-spacing: 0px; 
+     font-weight: 500;
+     font-family: 'Stafford Serial', sans-serif;
+     padding-top: 1px;
+
 }
 .nav-link {
 color: black ;
@@ -135,3 +143,35 @@ padding: 20px 20px;
 .snl-main{
     padding-top: 50px;
 }
+
+.nav-item-customize a {
+    font-weight:normal;
+    padding: 5px 10px;
+}
+
+
+.fotter-lo{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Stafford Serial', sans-serif;
+    word-spacing: -5px;
+    color: #f4511e;
+}
+
+
+
+hr.vertical {
+    border-left: 2px solid #000000;
+    height: 20px;
+    margin-top: 30px;
+  }
+  hr.vertical-fotter{
+    border-left: 2px solid #000000;
+    height: 20px;
+    margin-top: 10px;
+  }
+  hr.hr-navbar{
+    height: 2px;
+    width: 100%;
+    color: #23232384;
+  }
